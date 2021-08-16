@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profit | Loss</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <div>
-            
+        <div class="container">
+            <h1>Check Profit/Loss on your Stock.</h1>
+            <form class="form">
+                <label for="stock-price">Stock purchase price: <input type="number" id="stock-price" class="input"></label>
+                <label for="stock-quantity">Stock purchase quantity: <input type="number" id="stock-quantity" class="input"></label>
+                <label for="stock-current-price">Stock current price: <input type="number" id="stock-current-price" class="input"></label>
+            </form>
+            <button class="check-btn">Check</button>
+            <p class="message-area"></p>
         </div>
     </main>
+
+    <script src="./main.js"></script>
 </body>
 </html>
