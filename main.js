@@ -26,7 +26,7 @@ function handleCheck(){
         }
 
     }else{
-        messageArea.innerText = "Please enter numbers in all fields & make sure the values greater then 0 ";
+        messageArea.innerText = "Please enter numbers in all fields & make sure the values are greater then 0 ";
     }
 
 }
