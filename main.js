@@ -32,6 +32,6 @@ function handleCheck(){
 }
 
 function calculatePercentage(originalValue, diff){
-    let percentage = (diff / originalValue) * 100;
+    let percentage = ((diff / originalValue) * 100).toFixed(2);
     return percentage;
 }
